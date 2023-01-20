@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600|Nunito:400,600,700');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+.first{
+    position: relative;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(clone/bb.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+.first nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 35px;
+    height: 15vh;
+    align-items: center;
+}
+.first nav input{
+    width: 320px;
+    
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    height: 50px;
+    border-radius: 3px;
+}
+.first ::placeholder{
+    font-size: 15px;
+}
+button:hover{
+    cursor: pointer;
+}
+.first img{
+    margin: 0 15px;
+}
+.first nav i{
+    margin-left: -35px;
+    background-color: red;
+    
+    padding: 17px 22px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+.first nav ul li{
+    display: inline;
+    margin: 0 2px;
+    padding: 11px 16px;
+    color: white;
+    font-weight: bold;
+}
+.first nav ul li:hover{
+    background-color: gainsboro;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.first nav ul{
+   position: relative;
+   left: 1%;
+   margin: 0 13px;
+}
+.first button{
+    padding: 7px 16px;
+    margin: 0 5px;
+}
+.first .btn1{
+    background-color: transparent;
+    border: white solid 2px;
+    color: white;
+    font-size: 17px;
+    border-radius: 5px;
+}
+.first .btn2{
+    background-color: red;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+.con h1{
+    font-size: 55px;
+    color: white;
+    font-weight: bold;
+}
+.con button{
+    padding: 15px 25px;
+    font-size: 17px;
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    margin: 20px 0;
+}
+.con i{
+    margin: 0 10px;
+}
+.con{
+    margin-top: 6%;
+    margin-left: 10%;
+}
+
+.second{
+    padding: 3% 7%;
+    
+}
+
+.second h1{
+    text-align: center;
+    font-size: 35px;
+    margin: 3% 0;
+}
+.second .im1{
+    height: 40px;
+    border-radius: 100%;
+    background-color: rgb(1, 195, 221);
+    margin-right: 15px;
+}
+.second .box .intro{
+    display: flex;
+    margin: 25px 20px;
+}
+.second .box .txt p{
+    margin-bottom: 5px;
+}
+.second .box .txt p:first-child{
+    font-weight: bold;
+}
+.second .b-box{
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-template-rows:auto;
+    grid-gap: 25px;
+    justify-content: center;
+    height: auto;
+}
+.second .box{
+   border: gainsboro 1px solid;
+   padding: 5px 0;
+   
+}
+.second .box .cont img{
+    width: 100%;
+    height: 120px;
+}
+.second .box .cont p:nth-child(2){
+    color: #2b849e;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px 10px;
+}
+.second .box .cont .icon img{
+    height: 20px;
+    margin: 0;
+    display: inline-block;
+    width: 25px;
+   
+}
+.second .box .cont .icon {
+   display: flex;
+   flex-direction: row;
+    margin: 10px 8px;
+}
+.second .box .cont p:nth-child(4){
+    margin: 0 10px;
+}
+.second .box .cont p:nth-child(5){
+    margin: 5px 10px;
+    font-size: 16px;
+    color: #2b849e;
+}
+.second .box .cont .react{
+    margin: 15px 10px;
+}
+.second .box .cont .react i{
+    margin: 0 35px;
+    font-size: 17px;
+    cursor: pointer;
+    padding: 2%;
+}
+.second .box .cont .react i:hover{
+    background-color: gray;
+    border-radius: 100%;
+    
+}
+.second .last-txt{
+    text-align: center;
+    margin-top: 55px;
+    
+    cursor: pointer;
+    
+}
+.second .last-txt a{
+    color: #2b849e;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+.cata{
+    height: 75vh;
+}
+.cata h1{
+    text-align: center;
+    margin: 20px 0;
+}
+.cata .b-box{
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    grid-template-rows: 50% 50%;
+    grid-gap: 30px;
+    padding: 3% 6%;
+    height: 100%;
+    justify-content: center;
+}
+.cata .b-box .box{
+    border: gainsboro solid 1px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cata .b-box .box img{
+    height: 40px;
+    margin-bottom: 15px;
+}
+.cata .b-box .box p{
+    font-weight: bold;
+    margin-top: 15px;
+}
+.cata .b-box .box:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+}
+
+
+.third {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+    background-color: gainsboro;
+    
+    padding: 3% 7%;
+}
+.third  ul li{
+    list-style: none;
+    margin: 10px 0;
+    
+}
+.third .choose .lan select{
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+.third .choose .country select{
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+.third .choose .country{
+    margin: 15px 0;
+}
